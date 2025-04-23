@@ -1,5 +1,5 @@
 install:
-	uv sync
+	python3 -m uv sync
 
 lint:
 	uv run ruff check .
