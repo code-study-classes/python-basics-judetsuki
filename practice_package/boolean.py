@@ -10,4 +10,4 @@ def check_palindrome_number(num):
         num_str = str(abs(num))
         return num_str == num_str[::-1]
 
-check_ascending_digits = lambda num: (len(str(abs(num))) == 3) and (abs(num) // 100 < (abs(num) // 10) % 10 < abs(num) % 10)
+check_ascending_digits = lambda num: (len(str(abs(num)) == 3) and (abs(num) // 100 < (abs(num) // 10) % 10 < abs(num) % 10)
